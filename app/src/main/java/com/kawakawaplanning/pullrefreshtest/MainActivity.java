@@ -41,7 +41,7 @@ public class MainActivity extends ActionBarActivity implements SwipeRefreshLayou
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
-                Uri uri = Uri.parse("https://github.com/KawakawaRitsuki/PullRefresh");
+                Uri uri = Uri.parse("https://github.com/KawakawaRitsuki/PullRefreshTest");
                 Intent i = new Intent(Intent.ACTION_VIEW,uri);
                 startActivity(i);
             }
